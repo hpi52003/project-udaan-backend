@@ -11,7 +11,7 @@ from utils.validators import is_valid_input_text, is_supported_language_code # t
 from db.logger import record_translation_log, fetch_all_translation_logs # type: ignore
 
 router = APIRouter()
-
+#Language list is added to notify by the user easily
 language_reference = {
     "hindi": "hi", "tamil": "ta", "kannada": "kn", "bengali": "bn",
     "english": "en", "spanish": "es", "french": "fr", "german": "de",
