@@ -4,4 +4,3 @@ pydantic
 sqlalchemy
 python-multipart
 googletrans==4.0.0rc1
-httpx<0.27.0  # Prevents installing a version that dropped 'cgi'
