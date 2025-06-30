@@ -10,7 +10,7 @@ app = FastAPI(
 @app.get("/")
 def root_endpoint():
     return {
-        "message": "Welcome to Project Udaan – Translation Microservice 🚀",
+        "message": "Welcome to Project Udaan – Translation Microservice",
         "docs": "Visit /docs for API documentation",
         "health": "/health"
     }
