@@ -1,11 +1,9 @@
 import sqlite3
 from datetime import datetime
 
-# Establish DB connection
 database_connection = sqlite3.connect("translations.db", check_same_thread=False)
 db_cursor = database_connection.cursor()
 
-# Create logs table if it doesn't exist
 db_cursor.execute("""
 CREATE TABLE IF NOT EXISTS translations (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
