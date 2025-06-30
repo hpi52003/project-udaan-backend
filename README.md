@@ -80,7 +80,8 @@ After all this installation and creation of folders and their respective python 
 4) So, to get the final execution change the path to Backend-Translator(a newly created folder 
     where all the previous folders and their respective python files are transferred and stored in 
     this folder) and then execute as shown below.
-    (venv) C:\Users\hp\Downloads\project_udaan> cd Backend-Translator> uvicorn main:app  --reload
+    (venv) C:\Users\hp\Downloads\project_udaan>cd Backend-Translator
+    (venv) C:\Users\hp\Downloads\project_udaan>Backend-Translator> uvicorn main:app  --reload
 
 
 
